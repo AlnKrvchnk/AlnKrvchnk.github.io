@@ -1,0 +1,22 @@
+{
+  "name": "aroundtheworld",
+  "version": "1.0.0",
+  "description": "game for telegram",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "js",
+    "telegram"
+  ],
+  "author": "Alina Kravchenko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.52.0",
+    "telegraf": "^4.3.0",
+    "three": "^0.127.0"
+  }
+}

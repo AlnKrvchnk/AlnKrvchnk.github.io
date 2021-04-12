@@ -1,0 +1,28 @@
+/*Title*/
+
+div.title .cls-1 {
+    opacity: 0.19;
+}
+div.title .cls-2 {
+      fill: #fff;
+}
+
+div.title .cls-3 {
+  fill: #287ca0;
+ }
+
+/*Clouds*/
+
+.clouds .cls-1 {fill: #fff;}
+#cloudsback .cls-1{opacity: 0.6;}
+#cloudsback .cls-1:nth-child(2n){opacity: 0.9;}
+
+#cloudsback  .cls-2{opacity: 0;}
+#clouds  .cls-2 {opacity: 0.03;}
+
+/*Action*/
+
+div.action{
+    opacity: 0.8;
+     fill: #0b161a;
+}

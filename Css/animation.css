@@ -1,0 +1,85 @@
+/*Title*/
+div.title {
+  animation: titleanimation 1s linear forwards;
+ opacity: 0;
+    animation-delay: 6s;
+}
+
+@keyframes titleanimation { to{ opacity: 1;}}
+
+
+/*Clouds*/
+
+#clouds g:nth-child(2n+1){
+    animation: cloudr linear forwards;
+    animation-duration: 6s;
+}
+
+#clouds g:nth-child(2n){
+    animation: cloudl linear forwards;
+    animation-duration: 6s;
+}
+#clouds g:nth-child(3n){
+    animation-duration: 7s;
+}
+
+#cloudsback g:nth-child(2n+1){
+    animation: cloudbackr linear infinite;
+    animation-duration: 30s;
+    transform: translate(50%, 50%);
+}
+#cloudsback g:nth-child(2n){
+    animation: cloudbackl linear infinite;
+    animation-duration: 30s;
+     transform: translate(-50%, -50%);
+}
+@keyframes cloudl{
+    90%{
+        opacity: 1;
+    }
+    to{
+transform: translate(100%, -300%) scale(5);
+        opacity: 0;
+        display: none;
+    }
+}
+@keyframes cloudr{90%{opacity: 1;}
+    to{
+transform: translate(-500%, -300%) scale(5);
+        opacity: 0;
+         display: none;
+    }
+}
+
+
+@keyframes cloudbackl{50%{transform: translate(100%,-50%);   }}
+@keyframes cloudbackr{50%{transform: translate(-100%,50%);}}
+
+
+
+/*Earth*/
+@keyframes earth{to{transform: scale(1); }}
+
+div.wrapper img{
+    position: absolute;
+nimation: a 0.5s steps(5)  infinite;
+
+}
+@keyframes a{
+
+    to{transform: translateX(-100%);}
+
+
+
+
+/*Action*/
+
+.action svg {
+    animation: action 1.5s linear infinite;
+     opacity: 0;
+    animation-delay: 9s
+}
+
+@keyframes action{
+    from,to{opacity: 0.3;}
+    50%{transform: scale(1.2);opacity: 0.9}}

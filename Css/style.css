@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+    width: 100%;
+    background:radial-gradient(rgba(178, 203, 251,0.2),rgba(178, 203, 251,1));
+    position: absolute;
+    overflow: hidden;
+}
+
+body{
+background: none!important;}
+
+
+
+
+div.earth div{
+    background: green;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+animation: earth linear forwards;
+    animation-duration: 6s;
+    transform: scale(0.1)
+}
+
+
+.action div.act {
+margin-left: 70%;
+    margin-top: 40%;}
+
+
+@media (max-width: 1199.98px) {
+    div.earth div{
+    width: 300px;
+    height: 300px;
+}
+    .title div{
+    transform: translateY(150%);
+}
+
+.action div.act {
+margin-left: 50%;
+    margin-top: 150%;
+    }
+
+    .cloudsback svg{
+        width: 250%;
+    }
+}
