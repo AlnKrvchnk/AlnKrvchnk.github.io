@@ -88,8 +88,8 @@ select {
 
 
   queue()
-  .defer(d3.json, "https://gist.github.com/KoGor/5994804#gistcomment-1814587")
-  .defer(d3.tsv, "https://gist.github.com/KoGor/5994804#gistcomment-1814586")
+  .defer(d3.json, "world-110m.json")
+  .defer(d3.tsv, "world-names.tsv")
   .await(ready);
 
   //Main function
