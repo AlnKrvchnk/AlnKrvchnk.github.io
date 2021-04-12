@@ -7556,55 +7556,6 @@
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
-<script>
-    var ball=document.getElementsByClassName('Earth')[0];
-   var el = document.getElementsByClassName('Earth')[0].childNodes;
-
-var index=1;
-    var countel=1;
-
-ball.onmousedown = function(e) {
-var mouseX=e.pageX;
-  moveAt(e);
-
-  function moveAt(e) {
-  console.log(mouseX,e.pageX);
-      if(mouseX>e.pageX)
-          {
-               el[countel].style.zIndex=String(index);
- console.log(index);
-              index++;
-
-          }
-       else if(mouseX<e.pageX)
-          {
-                el[countel].style.zIndex=String(index);
-              index--;
-          }
-      if(countel>=el.length | index>el.length | index<el.length)
-          {countel=0}
-
-  }
-
-  document.onmousemove = function(e) {
-    moveAt(e);
-  };
-
-  ball.onmouseup = function() {
-    document.onmousemove = null;
-    ball.onmouseup = null;
-  };
-
-}
-
-
-</script>
-
-
-
-
-
-
 <script src="Js/app.js"></script>
 <!--<script src="Js/3dobject.js"></script>-->
 
