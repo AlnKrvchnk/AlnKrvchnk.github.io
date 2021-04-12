@@ -5,13 +5,16 @@
 
 <script src="https://d3js.org/d3.v3.js"></script>
 <script src="https://unpkg.com/topojson@3"></script>
-<script src="node_modules/datamaps/dist/datamaps.world.min.js"></script>
+<script src="../node_modules/datamaps/dist/datamaps.world.min.js"></script>
 
 <div id="container" style="position: relative; width: 500px; height: 300px;"></div>
 
 <script>
 
   var map = new Datamap({
+       scope: 'world',
+
+        projection: 'orthographic',
         element: document.getElementById('container'),
         fills: {
             HIGH: '#afafaf',
