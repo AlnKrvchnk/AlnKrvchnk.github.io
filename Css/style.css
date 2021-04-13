@@ -8,15 +8,16 @@ html{
 
 body{
 background: none!important;}
-
+.learnMap .wrapper{
+    background: cornflowerblue;
+}
+*{
+overflow: hidden;}
 
 
 
 div.earth div{
-    background: green;
-    border-radius: 50%;
-    width: 600px;
-    height: 600px;
+
 animation: earth linear forwards;
     animation-duration: 6s;
     transform: scale(0.1)
@@ -27,12 +28,72 @@ animation: earth linear forwards;
 margin-left: 70%;
     margin-top: 40%;}
 
+.earth .wrapper{
+    background: #b3f1ff;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0px 0px 20px 20px rgb(255 255 255 / 20%);
+    box-shadow: inset 0px 0px 20px 20px rgb(0 0 0 / 8%);
+}
+.earth img{
+    stroke-width:1px;
+stroke:#36754a;
+    fill:#36754a;
+    overflow: hidden;
+    width: 180%;
+    transform: translate(-50%, -5%);
+
+    animation: a 5s linear infinite;
+
+}
+.earth img:nth-child(2){
+
+    animation-delay: 2.5s;
+
+}
+
+
+@keyframes a{
+    from{display: block;}
+
+    50%{
+                transform: translate(20%,-20%);
+                    order: 2;
+    }
+    to{transform: translate(20%,-20%);
+                    display:none;}
+}
+
+.earth svg g:hover{
+stroke:red;
+    fill:red;
+
+
+}
+  .mapcontainer{
+        overflow-x: auto;
+}
+  .mapcontainer div{
+      width: 230vh;
+}
+
+::-webkit-scrollbar { display: none}
+::-webkit-scrollbar-button { display: none; }
+::-webkit-scrollbar-track {  display: none;}
+::-webkit-scrollbar-track-piece { display: none;}
+::-webkit-scrollbar-thumb { display: none;}
+::-webkit-scrollbar-corner { display: none;}}
+::-webkit-resizer { display: none;}
 
 @media (max-width: 1199.98px) {
-    div.earth div{
-    width: 300px;
-    height: 300px;
+
+  .mapcontainer div{
+      width: 250vh;
 }
+
+
     .title div{
     transform: translateY(150%);
 }
@@ -43,6 +104,6 @@ margin-left: 50%;
     }
 
     .cloudsback svg{
-        width: 250%;
+        transform: scale(2.3);
     }
 }

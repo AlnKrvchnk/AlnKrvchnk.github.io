@@ -60,16 +60,6 @@ transform: translate(-500%, -300%) scale(5);
 /*Earth*/
 @keyframes earth{to{transform: scale(1); }}
 
-div.wrapper img{
-    position: absolute;
-nimation: a 0.5s steps(5)  infinite;
-
-}
-@keyframes a{
-
-    to{transform: translateX(-100%);}
-
-
 
 
 /*Action*/

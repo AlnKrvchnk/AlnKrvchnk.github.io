@@ -1,30 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="Css/animation.css">
-    <link rel="stylesheet" href="Css/style.css">
-    <link rel="stylesheet" href="Css/svg.css">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-
-<link rel="stylesheet" href="OwlCarousel/owl.carousel.min.css">
-<link rel="stylesheet" href="OwlCarousel/owl.theme.default.css">
-
-
-
-    <title>AroundTheWorld</title>
-</head>
-
-<body>
-
-
-   <div>
- <div class="owl-carousel earth earth">
-     <div class="owl-item">
-     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 612 364" style="enable-background:new 0 0 612 364;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 612 364"  xml:space="preserve">
 <g id="SouthAmerica">
     <path class="st0" d="M183.7,272c-0.2,0-0.4,0-0.5,0.2C183.4,272.1,183.5,272,183.7,272z"/>
     <path class="st0" d="M199.5,234.5c0.6-7.3-14.1-13.8-19.5-11.3c1.4-2-0.9,0.2-1.1,1.2c-0.1-0.5,1.2-3.8,0.1-2.3
@@ -357,9 +332,5 @@
     <path id="path3954" class="st0" d="M558,238.3c-0.4-16.1,2.7-18.2,13.5-7.7c3.1,2.1-4.3,2.2,1.1,5.2c0.2,2.5,2,3,3.3,3.7
         c-2.5,1.5,3.5,1.2,0.4,1.8c-0.8,2.7-8.5-5.4-10.7-7c-2.8-0.4-1.5,2.5-5.3,1.5C565,237.5,559.3,239.1,558,238.3"/>
     <path id="path3982" class="st0" d="M574.6,230.6c2.8,3,9.8-3.4,6.2-4.1C579.8,231.1,571.5,228,574.6,230.6"/>
-         </g></svg>
-
-</div></div></div><script src="OwlCarousel/jquery.min.js"></script>
-<script src="OwlCarousel/owl.carousel.min.js"></script>
-</body>
-</html>
+</g>
+</svg>
